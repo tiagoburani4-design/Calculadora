@@ -21,6 +21,12 @@ public class Calculadora {
     public static final String MSG_OPERACAO_INVALIDA = "Erro: operação inválida. Use +, -, * ou /.";
 
     /**
+     * Cria uma nova calculadora.
+     */
+    public Calculadora() {
+    }
+
+    /**
      * Executa a operação matemática solicitada entre dois números inteiros.
      * <p>
      * Operadores aceitos: {@code +}, {@code -}, {@code *} e {@code /}.

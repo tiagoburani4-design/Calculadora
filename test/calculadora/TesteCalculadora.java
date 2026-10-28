@@ -22,6 +22,12 @@ public class TesteCalculadora {
     private static int reprovados = 0;
 
     /**
+     * Cria a classe de testes.
+     */
+    public TesteCalculadora() {
+    }
+
+    /**
      * Executa todos os testes e exibe o resumo final.
      * Encerra com código 1 se algum teste falhar.
      *
