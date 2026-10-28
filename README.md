@@ -10,9 +10,9 @@
 **Contexto:** FinançApp  
 **Aluno:** Tiago José Redondo Burani  
 **RA:** 252110  
-**Curso:** [PREENCHER]  
-**Disciplina:** [PREENCHER]  
-**Professor:** [PREENCHER]  
+**Curso:** Análise e Desenvolvimento de Sistemas  
+**Disciplina:** UI/UX 
+**Professor:** Daniel Ohata  
 **Semestre:** 2026.2  
 
 ---
@@ -115,7 +115,7 @@ A aplicação deverá oferecer as seguintes operações:
 | Git | 2.43 | Controle de versão |
 | GitHub | — | Repositório remoto |
 | JavaDoc | 21 | Documentação |
-| IDE | [PREENCHER] | Ambiente de desenvolvimento |
+| IDE | Visual Studio Code | Ambiente de desenvolvimento |
 
 ---
 
@@ -193,18 +193,6 @@ Aprovados......: 22
 Reprovados.....: 0
 ```
 
-## 10.3 Prints da execução dos testes
-
-**Antes da refatoração:**
-
-![Testes antes da refatoração](images/testes/testes-antes-refatoracao.png)
-
-**Depois da refatoração:**
-
-![Testes depois da refatoração](images/testes/testes-depois-refatoracao.png)
-
----
-
 # 11. Refatoração
 
 A refatoração foi realizada na branch **`Refatoracao`**, sem alterar o comportamento do sistema. Os mesmos 22 testes foram executados antes e depois, com 100% de aprovação.
@@ -217,14 +205,6 @@ A refatoração foi realizada na branch **`Refatoracao`**, sem alterar o comport
 | Melhoria de nomes | Variável genérica `resultado` | Nomes descritivos como `dividendo` e `divisor` |
 | Organização lógica | Validações misturadas ao cálculo | Validação do operador separada da execução da operação |
 
-**Prints da refatoração:**
-
-![Código antes da refatoração](images/refatoracao/codigo-antes.png)
-
-![Código depois da refatoração](images/refatoracao/codigo-depois.png)
-
----
-
 # 12. Documentação JavaDoc
 
 Todas as classes, métodos, atributos, parâmetros, retornos e exceções foram documentados com JavaDoc (`@author`, `@version`, `@param`, `@return`), além de comentários técnicos no código.
@@ -236,14 +216,6 @@ Comando utilizado para gerar:
 ```bash
 javadoc -private -author -version -encoding UTF-8 -docencoding UTF-8 -charset UTF-8 -d docs src/calculadora/Calculadora.java test/calculadora/TesteCalculadora.java
 ```
-
-**Prints da documentação JavaDoc:**
-
-![Página inicial do JavaDoc](images/javadoc/javadoc-index.png)
-
-![JavaDoc da classe Calculadora](images/javadoc/javadoc-calculadora.png)
-
----
 
 # 13. Versionamento
 
@@ -258,4 +230,4 @@ Os commits seguem o padrão `tipo: descrição` (`chore`, `feat`, `test`, `refac
 
 # 14. Repositório
 
-🔗 **Link do repositório:** [COLAR AQUI O LINK DO GITHUB]
+🔗 **Link do repositório:** www.github.com/tiagoburani4-design/Calculadora
